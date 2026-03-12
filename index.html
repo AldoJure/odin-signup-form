@@ -14,8 +14,10 @@
             <img src="./odin-lined.png" alt="Odin head lined logo">
             <p>ODIN</p>
         </div>
-        <p class="footer-left-section">Photo by <a href="https://unsplash.com/es/@haliewestphoto" target="_blank">Halie West</a> on <a
-                href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA" target="_blank">Unsplash</a>
+        <p class="footer-left-section">Photo by <a href="https://unsplash.com/es/@haliewestphoto" target="_blank">Halie
+                West</a> on <a
+                href="https://unsplash.com/es/fotos/planta-de-hoja-verde-en-fotografia-de-primer-plano-25xggax4bSA"
+                target="_blank">Unsplash</a>
         </p>
     </div>
     <main class="main-section">
@@ -53,11 +55,12 @@
                 <div>
                     <div>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password"
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" required>
                     </div>
                     <div>
                         <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" required>
                     </div>
                 </div>
             </div>
