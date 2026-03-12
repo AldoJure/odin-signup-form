@@ -26,29 +26,29 @@
                 realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
             <p>You <i>know</i> you want to.</p>
         </div>
-        <form action="">
+        <form action="https://httpbin.org/post" method="post">
             <div>
                 <p>Let's do this!</p>
 
                 <div>
                     <div>
                         <label for="first_name">FIRST NAME</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <input type="text" name="first_name" id="first_name" minlength="3" maxlength="20" required>
                     </div>
                     <div>
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <input type="text" name="last_name" id="last_name" minlength="3" maxlength="20" required>
                     </div>
                 </div>
 
                 <div>
                     <div>
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div>
                         <label for="phone_number">PHONE NUMBER</label>
-                        <input type="text" name="phone_number" id="phone_number">
+                        <input type="text" name="phone_number" id="phone_number" min="6" max="12">
                     </div>
 
                 </div>
@@ -66,7 +66,7 @@
             </div>
             <button type="submit">Create Account</button>
         </form>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p>Already have an account? <a href="#">Log in</a></p>
     </main>
 </body>
 
